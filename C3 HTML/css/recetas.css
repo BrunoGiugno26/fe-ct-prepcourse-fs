@@ -1,0 +1,234 @@
+
+/* Parametros Globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 50px;
+}
+
+/* Header */
+
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(173, 22, 22);
+}
+
+.menu-1{
+    margin-right: 180px;
+    
+}
+
+.menu-2{
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-1{
+    width: 0;
+}
+
+.logo-2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 150px;
+}
+
+.socials{
+    display: flex;
+}
+
+.social{
+    margin: 0 10px;
+    padding-block: 8px;
+    padding-right: 24px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid red;
+}
+
+.social:hover{
+    background-color: red;
+}
+
+.social img{
+    margin: 1px 0 0 10px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float:left;
+}
+
+.menu .navbar ul li a{
+    font-size: 19px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color:red;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.fideos{
+    display: block;
+    justify-content: center;
+    margin-top: 180px;
+    padding: 40px;
+}
+
+.info-txt{
+    position: absolute;
+    text-decoration: underline;
+    margin-left: 500px;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.info-img{
+    margin-top: 50px;
+    padding: 0 300px;
+}
+.art-1{
+    background-color: rgb(173, 22, 22);
+    color: white;
+}
+.ingredientes{
+    max-width: 1200px;
+    position: relative;
+    margin:  0px 50px;
+    padding: 30px;
+}
+.h2-1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.lista-salsa{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.pasos{
+    margin-top: 40px;
+    padding: 0 50px;
+}
+
+.h1{
+    position: absolute;
+    margin-left: 500px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.h1-img{
+    width: 400px;
+    height: 300px;
+    margin: 60px 0 0 400px;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(173, 22, 22);
+}
+.h2-2{
+    text-decoration: underline;
+}
+
+.h2-3{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-img{
+    width: 400px;
+    height: 300px;
+    margin: 60px 0 0 400px;
+    padding: 1px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgb(173, 22, 22);
+}
+
+.footer{
+    max-width: 1200px;
+    margin: 100px 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:rgb(173, 22, 22);
+}
+
+#Logo-2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    width: 150px;
+}
+
+.links ul li a {
+    margin: 20px 0px 10px 0px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.links  ul li a:hover{
+    color: red;
+ }
+
+h4{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
