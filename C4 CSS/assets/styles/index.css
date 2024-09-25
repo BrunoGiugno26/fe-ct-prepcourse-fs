@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 1600px;
+    width: auto;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -45,5 +45,121 @@ nav ul li a:hover{
     font-weight: 700;
     line-height: 22.59px;
     text-align: left;
+    color: rgb(185, 164, 164);
+}
+
+#logo-T{
+    width: 41px;
+    height: 41px;
+    background-color: #458ff6;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32.63px;
+    text-align: center;
+    align-content: center;
+    color: #ffff;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#logo-Trafalgar{
+    width: 107px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.12px;
+    text-align: left;
+    color: #233348;
+}
+
+#section-main{
+    display: flex;
+}
+
+#articulo-virtual {
+    width: 445px;
+    height: 338px;
+    margin-top: 186px;
+    margin-left: 190px;
+    gap: 0px;
+    border-radius: 55px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 115px;
+    }
+
+#articulo-virtual h1 {
+    width: 427px;
+    height: 112px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+}
+
+#articulo-virtual p {
+    width: 445px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #7d7987;
+}
+
+#articulo-virtual button {
+    width: 200px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 55px;
+    opacity: 0px;
+    background-color: #458ff6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+#articulo-virtual button:hover {
+    width: 200px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 55px;
+    opacity: 0px;
+    background-color:cadetblue;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#imagen-virtual {
+    width: 693px;
+    height: 598px;
+    margin-top: 70px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.contenedor-main {
+    width: 50%;
+    height: 598px;
+    gap: 0px;
+    opacity: 0px;
 }
 
