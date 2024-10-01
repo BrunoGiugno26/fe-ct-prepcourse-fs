@@ -5,9 +5,9 @@
 }
 
 body{
-    width: auto;
-    margin: 0;
-    padding: 0;
+    width: 1600px;
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden;
 }
 
@@ -86,7 +86,7 @@ nav ul li a:hover{
     gap: 0px;
     border-radius: 55px 0px 0px 0px;
     opacity: 0px;
-    margin-right: 115px;
+    margin-right: 109px;
     }
 
 #articulo-virtual h1 {
