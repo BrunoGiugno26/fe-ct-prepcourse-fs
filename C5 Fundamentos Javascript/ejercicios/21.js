@@ -5,6 +5,12 @@ function multiplica(x, y) {
   // 10, 5 ---> 50
   // 5, 5 ---> 25
   // Tu código:
+  let multiplicacionDeLosArgumentos = x * y
+
+  return multiplicacionDeLosArgumentos
 }
+
+console.log(multiplica(50,66));
+
 
 module.exports = multiplica;
