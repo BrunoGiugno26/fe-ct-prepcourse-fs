@@ -4,6 +4,10 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  let concatenacion = "Hola " + nombre + "!"
+  return concatenacion
 }
+
+obtenerSaludo("Martin")
 
 module.exports = obtenerSaludo;
