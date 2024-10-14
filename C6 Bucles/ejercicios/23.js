@@ -8,14 +8,17 @@ function esNumeroPrimo(numero) {
   // Tu código:
 
   for(let i = 2; i < numero; i++){
-    if(numero % i === 0){
-      return false
-    }
+      if(numero % i === 0){
+        return false
+      }
   }
   return true
 }
 
-console.log(esNumeroPrimo(9));
+console.log(esNumeroPrimo(7));
+
+
+
 
 
 module.exports = esNumeroPrimo;

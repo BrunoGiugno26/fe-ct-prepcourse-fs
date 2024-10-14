@@ -4,17 +4,18 @@ function doWhile(num) {
   // PISTA: Utiliza el bucle do-while.
   // Tu código:
 
-  let contador = 0
+let contador = 0
 
   do{
     num+=5
     contador++
   }
-  while(contador < 8)
+
+  while(contador <8)
     return num
 }
 
-console.log(doWhile(8));
+console.log(doWhile(5));
 
 
 module.exports = doWhile;

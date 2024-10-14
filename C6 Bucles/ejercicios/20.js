@@ -5,18 +5,18 @@ function sumarHastaNConBreak(n) {
    // Tu código:
 
    let resultado = 0
-   
-   for(let i = 1; i <= n; i++){
+
+   for(let i = 1; i <=n; i++){
       resultado = resultado + i
 
-      if(resultado >= 100){
-         break;
+      if (resultado > 100){
+      break;
       }
    }
-   return resultado;
+   return resultado
 }
 
-console.log(sumarHastaNConBreak(14));
+console.log(sumarHastaNConBreak(5));
 
 
 module.exports = sumarHastaNConBreak;

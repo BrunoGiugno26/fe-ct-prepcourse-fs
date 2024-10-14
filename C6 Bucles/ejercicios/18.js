@@ -6,17 +6,18 @@ function productoEntreNúmeros(a, b) {
   let resultado = 1
 
   for(let i = a; i <= b; i++){
-    resultado = resultado*i
+    resultado = resultado * i
   }
+
   if(resultado === -0){
     return 0
   }
-  
+  Math.abs(resultado)
+
   return resultado
 }
 
-console.log(productoEntreNúmeros(2,8));
-
+console.log(productoEntreNúmeros(-6,6));
 
 
 module.exports = productoEntreNúmeros;
