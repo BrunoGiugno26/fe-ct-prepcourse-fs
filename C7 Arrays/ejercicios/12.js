@@ -4,4 +4,7 @@ function convertirStringAMayusculas(array) {
   // Tu código:
 }
 
+
+
+
 module.exports = convertirStringAMayusculas;

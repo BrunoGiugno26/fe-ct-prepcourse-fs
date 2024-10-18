@@ -3,4 +3,5 @@ function filtrarNumerosPares(array) {
   // Tu código:
 }
 
+
 module.exports = filtrarNumerosPares;

@@ -4,4 +4,5 @@ function duplicarElementos(array) {
   // Tu código:
 }
 
+
 module.exports = duplicarElementos;
