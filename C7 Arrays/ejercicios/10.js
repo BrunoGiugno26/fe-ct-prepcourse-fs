@@ -6,7 +6,6 @@ function obtenerPrimerStringLargo(array) {
       return array[i]
     }
   }
-  return undefined
 }
 
 console.log(obtenerPrimerStringLargo(["bob","ana","ed","roberto"]));
