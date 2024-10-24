@@ -10,9 +10,9 @@ for(let i = 0; i < 10;i++){
   
   if(i === num){ 
     return "Se interrumpió la ejecución"
-    
   }
-  num+=2
+  
+  num += 2
   arregloNuevo.push(num)
 }
 return arregloNuevo

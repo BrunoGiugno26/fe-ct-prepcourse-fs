@@ -6,7 +6,7 @@ function mesesDelAño(array) {
   let mesesBuscados = ["Enero","Marzo","Noviembre"];
   let arrayNuevo = [];
 
-  for(let i =0 ; i < array.length;i++){
+  for(let i = 0 ; i < array.length;i++){
     if(mesesBuscados.includes(array[i])){
       arrayNuevo.push(array[i])
     }
