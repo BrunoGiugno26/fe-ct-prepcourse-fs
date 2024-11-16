@@ -5,22 +5,24 @@ function multiplicarArgumentos() {
   // Tu código:
 
   if(arguments.length === 0){
-    return 0
-  };
+    return 0;
+  }
+  else if(arguments.length === 1){
+    return arguments[0];
+  }
 
-  if(arguments.length === 1){
-    return arguments[0]
-  };
+  let producto = 1;
 
-  let producto = 1
-
-  for(let i = 0 ; i < arguments.length; i++){
-    producto*=arguments[i];
+  for(let i = 0; i < arguments.length; i++){
+    producto *= arguments[i]
   }
   return producto;
-}
+  }
 
-console.log(multiplicarArgumentos(2,7,8,9));
+  console.log(multiplicarArgumentos(2,3,4));
+  console.log(multiplicarArgumentos(2));
+  console.log(multiplicarArgumentos());
+  
 
 
 module.exports = multiplicarArgumentos;

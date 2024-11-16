@@ -13,8 +13,18 @@ function dePalabrasAFrase(palabras) {
 
   //return texto
 
-  return palabras.join(" ")
+  //return palabras.join(" ")
+
+  let texto = palabras[0]
+
+  for(let i = 1; i < palabras.length;i++){
+    texto = texto + " " + palabras[i]
+  }
+  return texto
 }
+
+console.log(dePalabrasAFrase(["ricardo","roberto"]));
+
 
 
 

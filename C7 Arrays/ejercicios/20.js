@@ -6,8 +6,8 @@ function todosIguales(array) {
     return true
   }
 
-  for(let i = 1 ; i < array.length; i++){
-    if(array[i] !== array[0]){
+  for(let i = 1; i < array.length;i++){
+    if(array[i]!== array[0]){
       return false
     }
   }
@@ -15,8 +15,8 @@ function todosIguales(array) {
 }
 
 console.log(todosIguales([2,2,2,2]));
-console.log(todosIguales([1,2,3,2]));
-console.log(todosIguales([2,2,1,1]));
+console.log(todosIguales([1,2,2,2]));
+console.log(todosIguales([1,2,3,4]));
 
 
 module.exports = todosIguales;

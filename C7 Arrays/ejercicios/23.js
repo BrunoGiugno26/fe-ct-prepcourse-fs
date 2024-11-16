@@ -4,21 +4,21 @@ function breakStatement(num) {
   // Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y retornar el string: "Se interrumpió la ejecución".
   // Tu código:
 
-  let arregloNuevo = [];
+  let arrayNuevo = [];
 
-for(let i = 0; i < 10;i++){
-  
-  if(i === num){ 
-    return "Se interrumpió la ejecución"
+  for(let i = 0;i < 10;i++){
+    num += 2
+    arrayNuevo.push(num)
+
+    if( i === num){
+      return "Se interrumpió la ejecución"
+    }
   }
-  
-  num += 2
-  arregloNuevo.push(num)
-}
-return arregloNuevo
+  return arrayNuevo
 }
 
-console.log(breakStatement(2,[2,3,4,5]));
+console.log(breakStatement());
+
 
 
 module.exports = breakStatement;
